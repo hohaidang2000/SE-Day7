@@ -1,3 +1,5 @@
 # SE-Day7
-[Blank diagram.png]
+## use case diagram
+[use case diagram][use case diagram]
+[Blank diagram.png]]
 
