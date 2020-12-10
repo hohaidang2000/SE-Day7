@@ -3,7 +3,7 @@
 
 ![Blank diagram.png](https://github.com/hohaidangpro/SE-Day7/blob/main/Blank%20diagram.png)
 
-## Goals
+## Bussiness Objectives
 -	Phần mềm dạng ứng dụng cho máy tính cá nhân, chỉ có nhân viên lễ tân, nhân viên bán hàng, quản lí khách sạn được sử dụng
 -	Nhân viên lễ tân có thể tìm phòng trống theo yêu cầu trực tiếp của khách, checkin cho khách đã đặt phòng hoặc đặt phòng trực tiếp, checkout cho khách và in hóa đơn thanh toán cho khách
 -	Nhân viên bán hàng có thể tìm phòng trống và đặt phòng theo yêu cầu của khách.
@@ -18,5 +18,12 @@
 -	Khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng.
 -	Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin: họ tên và địa chỉ khách hàng, số phòng, ngày đến, ngày đi, giá phòng, các dịch vụ đi kèm (mỗi dịch vụ bao gồm tên dịch vụ, đơn vị tính, đơn giá, tổng tiền), số tiền thanh toán.
 -	Khách hàng có thể hủy đặt phòng (miên phí) nếu hủy trước ngày đến. Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu vào danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo.
+
+## Goals
+-	Người quản lí khách sạn (Manager): quản lí thông tin phòng và khách sạn (room manage), tạo và xem các loại báo cáo (create report)
+-	Nhân viên bán hàng (Saller): giao dịch với khách hàng (Client) qua điện thoại để đặt chỗ (Book a room) hoặc hủy đặt chỗ (Cancel a booking)
+-	Nhân viên tiếp tân (Receptionist): giao dịch trực tiếp với khách hàng (Client) tại quầy để đặt chỗ (Book a room), hủy đặt chỗ (Cancel a booking), nhận Checkin, Checkout và thanh toán cho khách hàng.
+-	Khách hàng (Client): có thể đặt phòng/hủy phòng (Book a room/Cancel a Booking) trực tiếp tại quầy với nhân viên lễ tân hoặc đặt/hủy qua điện thoại với nhân viên bán hàng. Checkin, Checkout và thanh toán tại quầy với nhân viên lễ tân.
+
 
 
